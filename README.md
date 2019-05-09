@@ -1,4 +1,4 @@
-# Automation-Testing
+# Automated-Testing
 An automation engineer testing challenge with katalon studio.
 Katalon Studio is preffered because it has the following characteristics:
 
