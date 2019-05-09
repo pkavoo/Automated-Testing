@@ -12,6 +12,6 @@ Katalon Studio is preffered because it has the following characteristics:
  
 To execute the test suite, launch Katalon studio and open the project. 
 Go to settings and add your email address so as to receive the reports.
-Open the test suites and expand execution properties, here add the emails you want to receive reports to.
+Open the test suites and expand execution information, here add the emails you want to receive reports to.
 Run the test suites, the results will be send to the email provided.
 Test data and authentication details can be changed from the data files.
