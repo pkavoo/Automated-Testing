@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS- User auth,Chrome 73.0.3683.86,user authentication proccess including creating a user upto signing in to masoko.com website,,2019-05-09 11:49:25,2019-05-09 11:51:22,1m - 56.951s,PASSED
+,,,,,,,
+Test Cases/User Authentication/TC-Customer registration,Chrome 73.0.3683.86,registering a new customer,,2019-05-09 11:49:26,2019-05-09 11:50:21,55.327s,PASSED
+openBrowser(masoko),Chrome 73.0.3683.86,,,2019-05-09 11:49:26,2019-05-09 11:50:07,40.686s,PASSED
+"click(findTestObject(""Home Page/Register""))",Chrome 73.0.3683.86,,,2019-05-09 11:50:07,2019-05-09 11:50:16,8.629s,PASSED
+"setText(findTestObject(""Create New Customer Account Page/input_firstname""), findTestData(""Masoko data/TD -Masoko registration"").getValue(1, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:50:16,2019-05-09 11:50:16,0.527s,PASSED
+"setText(findTestObject(""Create New Customer Account Page/input_lastname""), findTestData(""Masoko data/TD -Masoko registration"").getValue(2, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:50:16,2019-05-09 11:50:16,0.331s,PASSED
+"setText(findTestObject(""Create New Customer Account Page/input_mobile""), findTestData(""Masoko data/TD -Masoko registration"").getValue(3, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:50:16,2019-05-09 11:50:17,0.443s,PASSED
+"setText(findTestObject(""Create New Customer Account Page/input_email""), findTestData(""Masoko data/TD -Masoko registration"").getValue(4, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:50:17,2019-05-09 11:50:17,0.306s,PASSED
+"setText(findTestObject(""Create New Customer Account Page/input_password""), findTestData(""Masoko data/TD -Masoko registration"").getValue(5, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:50:17,2019-05-09 11:50:18,1.112s,PASSED
+"setText(findTestObject(""Create New Customer Account Page/input_password_confirmation""), findTestData(""Masoko data/TD -Masoko registration"").getValue(6, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:50:18,2019-05-09 11:50:19,0.265s,PASSED
+"click(findTestObject(""Create New Customer Account Page/button_Create an Account""))",Chrome 73.0.3683.86,,,2019-05-09 11:50:19,2019-05-09 11:50:20,1.061s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,,2019-05-09 11:50:20,2019-05-09 11:50:21,1.369s,PASSED
+,,,,,,,
+Test Cases/User Authentication/TC-Login,Chrome 73.0.3683.86,Logging in a created user,,2019-05-09 11:50:21,2019-05-09 11:51:21,1m - 0.090s,PASSED
+openBrowser(masoko),Chrome 73.0.3683.86,,,2019-05-09 11:50:21,2019-05-09 11:50:49,27.782s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,,2019-05-09 11:50:49,2019-05-09 11:50:50,1.233s,PASSED
+"click(findTestObject(""Home Page/Sign In ""))",Chrome 73.0.3683.86,,,2019-05-09 11:50:50,2019-05-09 11:50:59,8.497s,PASSED
+"setText(findTestObject(""Customer Login Page/input_username""), findTestData(""Masoko data/TD- Masoko login"").getValue(1, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:50:59,2019-05-09 11:50:59,0.386s,PASSED
+"setText(findTestObject(""Customer Login Page/input_password""), findTestData(""Masoko data/TD- Masoko login"").getValue(2, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:50:59,2019-05-09 11:50:59,0.245s,PASSED
+"click(findTestObject(""Customer Login Page/button_Sign In""))",Chrome 73.0.3683.86,,,2019-05-09 11:50:59,2019-05-09 11:51:21,21.700s,PASSED

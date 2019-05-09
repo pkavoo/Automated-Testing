@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS- User auth" time="112" tests="2" failures="0" errors="0">
+   <testsuite name="TS- User auth" tests="2" failures="0" errors="0" time="112" timestamp="2019-05-09 11:53:48" hostname="pkavo - DESKTOP-00FRS4B" id="Test Suites/User Authentication/TS- User auth">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pkavo\\Katalon Studio\\Masoko\\Masoko-Automation\\Reports\\User Authentication\\TS- User auth\\20190509_115346"/>
+         <property name="logFiles" value="C:\\Users\\pkavo\\Katalon Studio\\Masoko\\Masoko-Automation\\Reports\\User Authentication\\TS- User auth\\20190509_115346\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pkavo - DESKTOP-00FRS4B"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="172.16.40.126"/>
+         <property name="sessionId" value="88d819582ae074440b47e1699774f2fa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Authentication/TC-Customer registration" classname="Test Cases/User Authentication/TC-Customer registration" status="PASSED">
+         <system-out><![CDATA[2019-05-09 11:53:48 - [TEST_CASE][PASSED] - Test Cases/User Authentication/TC-Customer registration: Test Cases/User Authentication/TC-Customer registration
+
+2019-05-09 11:53:49 - [TEST_STEP][PASSED] - openBrowser(masoko): Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 11:53:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 11:53:51 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-09 11:54:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 11:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Register")): Object: 'Object Repository/Home Page/Register' is clicked on
+
+2019-05-09 11:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Register' is clicked on
+
+2019-05-09 11:54:33 - [TEST_STEP][PASSED] - setText(findTestObject("Create New Customer Account Page/input_firstname"), findTestData("Masoko data/TD -Masoko registration").getValue(1, 1)): Text 'Polycarp' is set on object 'Object Repository/Create New Customer Account Page/input_firstname'
+
+2019-05-09 11:54:33 - [MESSAGE][PASSED] - Text 'Polycarp' is set on object 'Object Repository/Create New Customer Account Page/input_firstname'
+
+2019-05-09 11:54:33 - [TEST_STEP][PASSED] - setText(findTestObject("Create New Customer Account Page/input_lastname"), findTestData("Masoko data/TD -Masoko registration").getValue(2, 1)): Text 'Kavoo' is set on object 'Object Repository/Create New Customer Account Page/input_lastname'
+
+2019-05-09 11:54:33 - [MESSAGE][PASSED] - Text 'Kavoo' is set on object 'Object Repository/Create New Customer Account Page/input_lastname'
+
+2019-05-09 11:54:33 - [TEST_STEP][PASSED] - setText(findTestObject("Create New Customer Account Page/input_mobile"), findTestData("Masoko data/TD -Masoko registration").getValue(3, 1)): Text 'polycarpkavoo@example.com' is set on object 'Object Repository/Create New Customer Account Page/input_mobile'
+
+2019-05-09 11:54:34 - [MESSAGE][PASSED] - Text 'polycarpkavoo@example.com' is set on object 'Object Repository/Create New Customer Account Page/input_mobile'
+
+2019-05-09 11:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Create New Customer Account Page/input_email"), findTestData("Masoko data/TD -Masoko registration").getValue(4, 1)): Text '715073891' is set on object 'Object Repository/Create New Customer Account Page/input_email'
+
+2019-05-09 11:54:34 - [MESSAGE][PASSED] - Text '715073891' is set on object 'Object Repository/Create New Customer Account Page/input_email'
+
+2019-05-09 11:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Create New Customer Account Page/input_password"), findTestData("Masoko data/TD -Masoko registration").getValue(5, 1)): Text 'Kenya@123' is set on object 'Object Repository/Create New Customer Account Page/input_password'
+
+2019-05-09 11:54:34 - [MESSAGE][PASSED] - Text 'Kenya@123' is set on object 'Object Repository/Create New Customer Account Page/input_password'
+
+2019-05-09 11:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Create New Customer Account Page/input_password_confirmation"), findTestData("Masoko data/TD -Masoko registration").getValue(6, 1)): Text 'Kenya@123' is set on object 'Object Repository/Create New Customer Account Page/input_password_confirmation'
+
+2019-05-09 11:54:34 - [MESSAGE][PASSED] - Text 'Kenya@123' is set on object 'Object Repository/Create New Customer Account Page/input_password_confirmation'
+
+2019-05-09 11:54:34 - [TEST_STEP][PASSED] - click(findTestObject("Create New Customer Account Page/button_Create an Account")): Object: 'Object Repository/Create New Customer Account Page/button_Create an Account' is clicked on
+
+2019-05-09 11:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Customer Account Page/button_Create an Account' is clicked on
+
+2019-05-09 11:54:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-09 11:54:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Authentication/TC-Login" classname="Test Cases/User Authentication/TC-Login" status="PASSED">
+         <system-out><![CDATA[2019-05-09 11:54:36 - [TEST_CASE][PASSED] - Test Cases/User Authentication/TC-Login: Test Cases/User Authentication/TC-Login
+
+2019-05-09 11:54:36 - [TEST_STEP][PASSED] - openBrowser(masoko): Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 11:54:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 11:54:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 11:54:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 11:55:00 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 11:55:00 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Sign In ")): Object: 'Object Repository/Home Page/Sign In ' is clicked on
+
+2019-05-09 11:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Sign In ' is clicked on
+
+2019-05-09 11:55:10 - [TEST_STEP][PASSED] - setText(findTestObject("Customer Login Page/input_username"), findTestData("Masoko data/TD- Masoko login").getValue(1, 1)): Text 'pkavoo@gmail.com' is set on object 'Object Repository/Customer Login Page/input_username'
+
+2019-05-09 11:55:11 - [MESSAGE][PASSED] - Text 'pkavoo@gmail.com' is set on object 'Object Repository/Customer Login Page/input_username'
+
+2019-05-09 11:55:11 - [TEST_STEP][PASSED] - setText(findTestObject("Customer Login Page/input_password"), findTestData("Masoko data/TD- Masoko login").getValue(2, 1)): Text 'Qwerty123!!!' is set on object 'Object Repository/Customer Login Page/input_password'
+
+2019-05-09 11:55:11 - [MESSAGE][PASSED] - Text 'Qwerty123!!!' is set on object 'Object Repository/Customer Login Page/input_password'
+
+2019-05-09 11:55:11 - [TEST_STEP][PASSED] - click(findTestObject("Customer Login Page/button_Sign In")): Object: 'Object Repository/Customer Login Page/button_Sign In' is clicked on
+
+2019-05-09 11:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Login Page/button_Sign In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-09 11:53:48 - [TEST_SUITE][PASSED] - TS- User auth: Test Cases/User Authentication/TC-Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

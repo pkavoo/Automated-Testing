@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-Product search and checkout" time="379" tests="3" failures="1" errors="0">
+   <testsuite name="TS-Product search and checkout" tests="3" failures="1" errors="0" time="379" timestamp="2019-05-09 11:31:24" hostname="pkavo - DESKTOP-00FRS4B" id="Test Suites/Product checkout/TS-Product search and checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pkavo\\Katalon Studio\\Masoko\\Masoko-Automation\\Reports\\Product checkout\\TS-Product search and checkout\\20190509_113121"/>
+         <property name="logFiles" value="C:\\Users\\pkavo\\Katalon Studio\\Masoko\\Masoko-Automation\\Reports\\Product checkout\\TS-Product search and checkout\\20190509_113121\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pkavo\\Katalon Studio\\Masoko\\Masoko-Automation\\Reports\\Product checkout\\TS-Product search and checkout\\20190509_113121\\1557390972084.png"/>
+         <property name="hostName" value="pkavo - DESKTOP-00FRS4B"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="172.16.40.126"/>
+         <property name="sessionId" value="d62fd28107879998576f6699a2a92f7e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Product Search/TC- Product Search" classname="Test Cases/Product Search/TC- Product Search" status="PASSED">
+         <system-out><![CDATA[2019-05-09 11:31:24 - [TEST_CASE][PASSED] - Test Cases/Product Search/TC- Product Search: Test Cases/Product Search/TC- Product Search
+
+2019-05-09 11:31:25 - [TEST_STEP][PASSED] - openBrowser(masoko): Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 11:31:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 11:31:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-09 11:31:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 11:31:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 11:31:58 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 11:31:58 - [TEST_STEP][PASSED] - setText(findTestObject("Home Page/search bar"), findTestData("Masoko data/TD- Product Search").getValue(1, 1)): Text 'Dell Mouse' is set on object 'Object Repository/Home Page/search bar'
+
+2019-05-09 11:31:59 - [MESSAGE][PASSED] - Text 'Dell Mouse' is set on object 'Object Repository/Home Page/search bar'
+
+2019-05-09 11:31:59 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/button_Search")): Object: 'Object Repository/Home Page/button_Search' is clicked on
+
+2019-05-09 11:32:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/button_Search' is clicked on
+
+2019-05-09 11:32:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product search page/img_product_1"), 2): Object 'Object Repository/Product search page/img_product_1' is present
+
+2019-05-09 11:32:12 - [MESSAGE][PASSED] - Object 'Object Repository/Product search page/img_product_1' is present
+
+2019-05-09 11:32:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-09 11:32:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add To Cart/TC-Add item to cart" classname="Test Cases/Add To Cart/TC-Add item to cart" status="PASSED">
+         <system-out><![CDATA[2019-05-09 11:32:13 - [TEST_CASE][PASSED] - Test Cases/Add To Cart/TC-Add item to cart: Test Cases/Add To Cart/TC-Add item to cart
+
+2019-05-09 11:32:13 - [TEST_STEP][PASSED] - openBrowser(masoko): Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 11:32:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 11:32:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 11:32:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 11:32:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 11:32:48 - [TEST_STEP][PASSED] - setText(findTestObject("Home Page/search bar"), findTestData("Masoko data/TD- Product Search").getValue(1, 1)): Text 'Dell Mouse' is set on object 'Object Repository/Home Page/search bar'
+
+2019-05-09 11:32:48 - [MESSAGE][PASSED] - Text 'Dell Mouse' is set on object 'Object Repository/Home Page/search bar'
+
+2019-05-09 11:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/button_Search")): Object: 'Object Repository/Home Page/button_Search' is clicked on
+
+2019-05-09 11:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/button_Search' is clicked on
+
+2019-05-09 11:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Product search page/img_product_1")): Object: 'Object Repository/Product search page/img_product_1' is clicked on
+
+2019-05-09 11:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Product search page/img_product_1' is clicked on
+
+2019-05-09 11:33:19 - [TEST_STEP][PASSED] - click(findTestObject("Product search page/button_Add to Cart")): Object: 'Object Repository/Product search page/button_Add to Cart' is clicked on
+
+2019-05-09 11:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Product search page/button_Add to Cart' is clicked on
+
+2019-05-09 11:33:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 11:33:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 11:33:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-09 11:33:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add To Cart/TC- Checkout an item" classname="Test Cases/Add To Cart/TC- Checkout an item" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Add To Cart/TC- Checkout an item FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product search page/img_product_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC- Checkout an item.run(TC- Checkout an item:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557390681637.run(TempTestSuite1557390681637.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Product search page/img_product_1' located by 'By.xpath: //img[@width = '240' and @height = '300' and @alt = 'Dell Wireless Mouse - Black']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1544733297222.run(Script1544733297222.groovy:26)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-09 11:33:22 - [TEST_CASE][FAILED] - Test Cases/Add To Cart/TC- Checkout an item: Test Cases/Add To Cart/TC- Checkout an item FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product search page/img_product_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC- Checkout an item.run(TC- Checkout an item:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557390681637.run(TempTestSuite1557390681637.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Product search page/img_product_1' located by 'By.xpath: //img[@width = '240' and @height = '300' and @alt = 'Dell Wireless Mouse - Black']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1544733297222.run(Script1544733297222.groovy:26)
+	... 13 more
+
+
+2019-05-09 11:33:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("User Authentication/TC-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/User Authentication/TC-Login' successfully
+
+2019-05-09 11:33:23 - [TEST_CASE][PASSED] - Test Cases/User Authentication/TC-Login: Test Cases/User Authentication/TC-Login
+
+2019-05-09 11:33:23 - [TEST_STEP][PASSED] - openBrowser(masoko): Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 11:33:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 11:34:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 11:34:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 11:34:04 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 11:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Sign In ")): Object: 'Object Repository/Home Page/Sign In ' is clicked on
+
+2019-05-09 11:34:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Sign In ' is clicked on
+
+2019-05-09 11:34:17 - [TEST_STEP][PASSED] - setText(findTestObject("Customer Login Page/input_username"), findTestData("Masoko data/TD- Masoko login").getValue(1, 1)): Text 'pkavoo@gmail.com' is set on object 'Object Repository/Customer Login Page/input_username'
+
+2019-05-09 11:34:17 - [MESSAGE][PASSED] - Text 'pkavoo@gmail.com' is set on object 'Object Repository/Customer Login Page/input_username'
+
+2019-05-09 11:34:17 - [TEST_STEP][PASSED] - setText(findTestObject("Customer Login Page/input_password"), findTestData("Masoko data/TD- Masoko login").getValue(2, 1)): Text 'Qwerty123!!!' is set on object 'Object Repository/Customer Login Page/input_password'
+
+2019-05-09 11:34:18 - [MESSAGE][PASSED] - Text 'Qwerty123!!!' is set on object 'Object Repository/Customer Login Page/input_password'
+
+2019-05-09 11:34:18 - [TEST_STEP][PASSED] - click(findTestObject("Customer Login Page/button_Sign In")): Object: 'Object Repository/Customer Login Page/button_Sign In' is clicked on
+
+2019-05-09 11:34:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Login Page/button_Sign In' is clicked on
+
+2019-05-09 11:34:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User Authentication/TC-Login' successfully
+
+2019-05-09 11:34:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 11:34:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 11:34:40 - [TEST_STEP][PASSED] - setText(findTestObject("Home Page/search bar"), findTestData("Masoko data/TD- Product Search").getValue(1, 1)): Text 'Dell Mouse' is set on object 'Object Repository/Home Page/search bar'
+
+2019-05-09 11:34:40 - [MESSAGE][PASSED] - Text 'Dell Mouse' is set on object 'Object Repository/Home Page/search bar'
+
+2019-05-09 11:34:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 11:34:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 11:34:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Home Page/search bar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Home Page/search bar'
+
+2019-05-09 11:35:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Home Page/search bar'
+
+2019-05-09 11:35:41 - [TEST_STEP][FAILED] - click(findTestObject("Product search page/img_product_1")): Unable to click on object 'Object Repository/Product search page/img_product_1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product search page/img_product_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC- Checkout an item.run(TC- Checkout an item:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557390681637.run(TempTestSuite1557390681637.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Product search page/img_product_1' located by 'By.xpath: //img[@width = '240' and @height = '300' and @alt = 'Dell Wireless Mouse - Black']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1544733297222.run(Script1544733297222.groovy:26)
+	... 13 more
+)
+
+2019-05-09 11:36:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //img[@width = '240' and @height = '300' and @alt = 'Dell Wireless Mouse - Black']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-09 11:36:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Product search page/img_product_1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product search page/img_product_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC- Checkout an item.run(TC- Checkout an item:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557390681637.run(TempTestSuite1557390681637.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Product search page/img_product_1' located by 'By.xpath: //img[@width = '240' and @height = '300' and @alt = 'Dell Wireless Mouse - Black']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1544733297222.run(Script1544733297222.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\pkavo\\Katalon Studio\\Masoko\\Masoko-Automation\\Reports\\Product checkout\\TS-Product search and checkout\\20190509_113121\\1557390972084.png]]]]></system-out>
+         <system-err><![CDATA[2019-05-09 11:33:22 - [TEST_CASE][FAILED] - Test Cases/Add To Cart/TC- Checkout an item: Test Cases/Add To Cart/TC- Checkout an item FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product search page/img_product_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC- Checkout an item.run(TC- Checkout an item:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557390681637.run(TempTestSuite1557390681637.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Product search page/img_product_1' located by 'By.xpath: //img[@width = '240' and @height = '300' and @alt = 'Dell Wireless Mouse - Black']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1544733297222.run(Script1544733297222.groovy:26)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Authentication/TC-Login" classname="Test Cases/User Authentication/TC-Login" status="PASSED">
+         <system-out><![CDATA[2019-05-09 11:36:12 - [TEST_CASE][PASSED] - Test Cases/User Authentication/TC-Login: Test Cases/User Authentication/TC-Login
+
+2019-05-09 11:36:12 - [TEST_STEP][PASSED] - openBrowser(masoko): Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 11:36:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 11:36:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 11:37:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 11:37:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 11:37:12 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 11:37:12 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Sign In ")): Object: 'Object Repository/Home Page/Sign In ' is clicked on
+
+2019-05-09 11:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Sign In ' is clicked on
+
+2019-05-09 11:37:25 - [TEST_STEP][PASSED] - setText(findTestObject("Customer Login Page/input_username"), findTestData("Masoko data/TD- Masoko login").getValue(1, 1)): Text 'pkavoo@gmail.com' is set on object 'Object Repository/Customer Login Page/input_username'
+
+2019-05-09 11:37:25 - [MESSAGE][PASSED] - Text 'pkavoo@gmail.com' is set on object 'Object Repository/Customer Login Page/input_username'
+
+2019-05-09 11:37:25 - [TEST_STEP][PASSED] - setText(findTestObject("Customer Login Page/input_password"), findTestData("Masoko data/TD- Masoko login").getValue(2, 1)): Text 'Qwerty123!!!' is set on object 'Object Repository/Customer Login Page/input_password'
+
+2019-05-09 11:37:25 - [MESSAGE][PASSED] - Text 'Qwerty123!!!' is set on object 'Object Repository/Customer Login Page/input_password'
+
+2019-05-09 11:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Customer Login Page/button_Sign In")): Object: 'Object Repository/Customer Login Page/button_Sign In' is clicked on
+
+2019-05-09 11:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Login Page/button_Sign In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-09 11:31:24 - [TEST_SUITE][FAILED] - TS-Product search and checkout: Test Cases/Add To Cart/TC- Checkout an item FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product search page/img_product_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC- Checkout an item.run(TC- Checkout an item:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557390681637.run(TempTestSuite1557390681637.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Product search page/img_product_1' located by 'By.xpath: //img[@width = '240' and @height = '300' and @alt = 'Dell Wireless Mouse - Black']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1544733297222.run(Script1544733297222.groovy:26)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-05-09 11:31:24 - [TEST_SUITE][FAILED] - TS-Product search and checkout: Test Cases/Add To Cart/TC- Checkout an item FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product search page/img_product_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC- Checkout an item.run(TC- Checkout an item:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557390681637.run(TempTestSuite1557390681637.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Product search page/img_product_1' located by 'By.xpath: //img[@width = '240' and @height = '300' and @alt = 'Dell Wireless Mouse - Black']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1544733297222.run(Script1544733297222.groovy:26)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

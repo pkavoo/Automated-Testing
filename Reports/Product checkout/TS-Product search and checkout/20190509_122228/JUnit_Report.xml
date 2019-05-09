@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-Product search and checkout" time="256" tests="4" failures="0" errors="0">
+   <testsuite name="TS-Product search and checkout" tests="4" failures="0" errors="0" time="256" timestamp="2019-05-09 12:22:30" hostname="pkavo - DESKTOP-00FRS4B" id="Test Suites/Product checkout/TS-Product search and checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pkavo\\Katalon Studio\\Masoko\\Masoko-Automation\\Reports\\Product checkout\\TS-Product search and checkout\\20190509_122228"/>
+         <property name="logFiles" value="C:\\Users\\pkavo\\Katalon Studio\\Masoko\\Masoko-Automation\\Reports\\Product checkout\\TS-Product search and checkout\\20190509_122228\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pkavo - DESKTOP-00FRS4B"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="172.16.40.126"/>
+         <property name="sessionId" value="9e7c0f079721097a05a397a64c9fad3f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Product Search/TC- Product Search" classname="Test Cases/Product Search/TC- Product Search" status="PASSED">
+         <system-out><![CDATA[2019-05-09 12:22:31 - [TEST_CASE][PASSED] - Test Cases/Product Search/TC- Product Search: Test Cases/Product Search/TC- Product Search
+
+2019-05-09 12:22:31 - [TEST_STEP][PASSED] - openBrowser(masoko): Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 12:22:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 12:22:32 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-09 12:22:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 12:22:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:22:57 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:22:57 - [TEST_STEP][PASSED] - setText(findTestObject("Home Page/search bar"), findTestData("Masoko data/TD- Product Search").getValue(1, 1)): Text 'Dell Mouse' is set on object 'Object Repository/Home Page/search bar'
+
+2019-05-09 12:22:58 - [MESSAGE][PASSED] - Text 'Dell Mouse' is set on object 'Object Repository/Home Page/search bar'
+
+2019-05-09 12:22:58 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/button_Search")): Object: 'Object Repository/Home Page/button_Search' is clicked on
+
+2019-05-09 12:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/button_Search' is clicked on
+
+2019-05-09 12:23:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Product search page/img_product_1"), 2): Object 'Object Repository/Product search page/img_product_1' is present
+
+2019-05-09 12:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/Product search page/img_product_1' is present
+
+2019-05-09 12:23:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-09 12:23:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add To Cart/TC-Add item to cart" classname="Test Cases/Add To Cart/TC-Add item to cart" status="PASSED">
+         <system-out><![CDATA[2019-05-09 12:23:06 - [TEST_CASE][PASSED] - Test Cases/Add To Cart/TC-Add item to cart: Test Cases/Add To Cart/TC-Add item to cart
+
+2019-05-09 12:23:06 - [TEST_STEP][PASSED] - openBrowser(masoko): Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 12:23:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 12:23:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 12:23:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:23:29 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:23:29 - [TEST_STEP][PASSED] - setText(findTestObject("Home Page/search bar"), findTestData("Masoko data/TD- Product Search").getValue(1, 1)): Text 'Dell Mouse' is set on object 'Object Repository/Home Page/search bar'
+
+2019-05-09 12:23:29 - [MESSAGE][PASSED] - Text 'Dell Mouse' is set on object 'Object Repository/Home Page/search bar'
+
+2019-05-09 12:23:29 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/button_Search")): Object: 'Object Repository/Home Page/button_Search' is clicked on
+
+2019-05-09 12:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/button_Search' is clicked on
+
+2019-05-09 12:23:38 - [TEST_STEP][PASSED] - click(findTestObject("Product search page/img_product_1")): Object: 'Object Repository/Product search page/img_product_1' is clicked on
+
+2019-05-09 12:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Product search page/img_product_1' is clicked on
+
+2019-05-09 12:23:49 - [TEST_STEP][PASSED] - click(findTestObject("Product search page/button_Add to Cart")): Object: 'Object Repository/Product search page/button_Add to Cart' is clicked on
+
+2019-05-09 12:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Product search page/button_Add to Cart' is clicked on
+
+2019-05-09 12:23:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 12:23:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 12:23:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-09 12:23:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add To Cart/TC- Checkout an item" classname="Test Cases/Add To Cart/TC- Checkout an item" status="PASSED">
+         <system-out><![CDATA[2019-05-09 12:23:53 - [TEST_CASE][PASSED] - Test Cases/Add To Cart/TC- Checkout an item: Test Cases/Add To Cart/TC- Checkout an item
+
+2019-05-09 12:23:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("User Authentication/TC-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/User Authentication/TC-Login' successfully
+
+2019-05-09 12:23:53 - [TEST_CASE][PASSED] - Test Cases/User Authentication/TC-Login: Test Cases/User Authentication/TC-Login
+
+2019-05-09 12:23:53 - [TEST_STEP][PASSED] - openBrowser(masoko): Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 12:23:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 12:24:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 12:24:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:24:17 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Sign In ")): Object: 'Object Repository/Home Page/Sign In ' is clicked on
+
+2019-05-09 12:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Sign In ' is clicked on
+
+2019-05-09 12:24:23 - [TEST_STEP][PASSED] - setText(findTestObject("Customer Login Page/input_username"), findTestData("Masoko data/TD- Masoko login").getValue(1, 1)): Text 'pkavoo@gmail.com' is set on object 'Object Repository/Customer Login Page/input_username'
+
+2019-05-09 12:24:24 - [MESSAGE][PASSED] - Text 'pkavoo@gmail.com' is set on object 'Object Repository/Customer Login Page/input_username'
+
+2019-05-09 12:24:24 - [TEST_STEP][PASSED] - setText(findTestObject("Customer Login Page/input_password"), findTestData("Masoko data/TD- Masoko login").getValue(2, 1)): Text 'Qwerty123!!!' is set on object 'Object Repository/Customer Login Page/input_password'
+
+2019-05-09 12:24:24 - [MESSAGE][PASSED] - Text 'Qwerty123!!!' is set on object 'Object Repository/Customer Login Page/input_password'
+
+2019-05-09 12:24:24 - [TEST_STEP][PASSED] - click(findTestObject("Customer Login Page/button_Sign In")): Object: 'Object Repository/Customer Login Page/button_Sign In' is clicked on
+
+2019-05-09 12:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Login Page/button_Sign In' is clicked on
+
+2019-05-09 12:24:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User Authentication/TC-Login' successfully
+
+2019-05-09 12:24:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 12:24:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 12:24:52 - [TEST_STEP][PASSED] - setText(findTestObject("Home Page/search bar"), findTestData("Masoko data/TD- Product Search").getValue(1, 1)): Text 'Dell Mouse' is set on object 'Object Repository/Home Page/search bar'
+
+2019-05-09 12:24:52 - [MESSAGE][PASSED] - Text 'Dell Mouse' is set on object 'Object Repository/Home Page/search bar'
+
+2019-05-09 12:24:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 12:24:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 12:24:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Home Page/search bar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Home Page/search bar'
+
+2019-05-09 12:25:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Home Page/search bar'
+
+2019-05-09 12:25:02 - [TEST_STEP][PASSED] - click(findTestObject("Product search page/img_product_1")): Object: 'Object Repository/Product search page/img_product_1' is clicked on
+
+2019-05-09 12:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Product search page/img_product_1' is clicked on
+
+2019-05-09 12:25:16 - [TEST_STEP][PASSED] - click(findTestObject("Product search page/button_Add to Cart")): Object: 'Object Repository/Product search page/button_Add to Cart' is clicked on
+
+2019-05-09 12:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Product search page/button_Add to Cart' is clicked on
+
+2019-05-09 12:25:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-09 12:25:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-09 12:25:21 - [TEST_STEP][PASSED] - click(findTestObject("Product search page/span_My Cart")): Object: 'Object Repository/Product search page/span_My Cart' is clicked on
+
+2019-05-09 12:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Product search page/span_My Cart' is clicked on
+
+2019-05-09 12:25:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 12:25:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 12:25:23 - [TEST_STEP][PASSED] - click(findTestObject("Product search page/button_Checkout")): Object: 'Object Repository/Product search page/button_Checkout' is clicked on
+
+2019-05-09 12:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Product search page/button_Checkout' is clicked on
+
+2019-05-09 12:25:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-09 12:25:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-09 12:25:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-09 12:25:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Authentication/TC-Login" classname="Test Cases/User Authentication/TC-Login" status="PASSED">
+         <system-out><![CDATA[2019-05-09 12:25:43 - [TEST_CASE][PASSED] - Test Cases/User Authentication/TC-Login: Test Cases/User Authentication/TC-Login
+
+2019-05-09 12:25:43 - [TEST_STEP][PASSED] - openBrowser(masoko): Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 12:25:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 12:26:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.masoko.com/'
+
+2019-05-09 12:26:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:26:16 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:26:16 - [TEST_STEP][PASSED] - click(findTestObject("Home Page/Sign In ")): Object: 'Object Repository/Home Page/Sign In ' is clicked on
+
+2019-05-09 12:26:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Sign In ' is clicked on
+
+2019-05-09 12:26:23 - [TEST_STEP][PASSED] - setText(findTestObject("Customer Login Page/input_username"), findTestData("Masoko data/TD- Masoko login").getValue(1, 1)): Text 'pkavoo@gmail.com' is set on object 'Object Repository/Customer Login Page/input_username'
+
+2019-05-09 12:26:24 - [MESSAGE][PASSED] - Text 'pkavoo@gmail.com' is set on object 'Object Repository/Customer Login Page/input_username'
+
+2019-05-09 12:26:24 - [TEST_STEP][PASSED] - setText(findTestObject("Customer Login Page/input_password"), findTestData("Masoko data/TD- Masoko login").getValue(2, 1)): Text 'Qwerty123!!!' is set on object 'Object Repository/Customer Login Page/input_password'
+
+2019-05-09 12:26:24 - [MESSAGE][PASSED] - Text 'Qwerty123!!!' is set on object 'Object Repository/Customer Login Page/input_password'
+
+2019-05-09 12:26:24 - [TEST_STEP][PASSED] - click(findTestObject("Customer Login Page/button_Sign In")): Object: 'Object Repository/Customer Login Page/button_Sign In' is clicked on
+
+2019-05-09 12:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer Login Page/button_Sign In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-09 12:22:30 - [TEST_SUITE][PASSED] - TS-Product search and checkout: Test Cases/User Authentication/TC-Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

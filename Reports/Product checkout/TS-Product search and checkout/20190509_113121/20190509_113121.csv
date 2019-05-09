@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-Product search and checkout,Chrome 73.0.3683.86,"includes searchingfor a given product, adding the item to cart and finally checking out the item from the cart",,2019-05-09 11:31:24,2019-05-09 11:37:43,6m - 19.826s,FAILED
+,,,,,,,
+Test Cases/Product Search/TC- Product Search,Chrome 73.0.3683.86,Search for a product,,2019-05-09 11:31:24,2019-05-09 11:32:13,48.723s,PASSED
+openBrowser(masoko),Chrome 73.0.3683.86,,,2019-05-09 11:31:25,2019-05-09 11:31:57,32.007s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,,2019-05-09 11:31:57,2019-05-09 11:31:58,1.585s,PASSED
+"setText(findTestObject(""Home Page/search bar""), findTestData(""Masoko data/TD- Product Search"").getValue(1, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:31:58,2019-05-09 11:31:59,0.864s,PASSED
+"click(findTestObject(""Home Page/button_Search""))",Chrome 73.0.3683.86,,,2019-05-09 11:31:59,2019-05-09 11:32:11,12.305s,PASSED
+"verifyElementPresent(findTestObject(""Product search page/img_product_1""), 2)",Chrome 73.0.3683.86,,,2019-05-09 11:32:11,2019-05-09 11:32:12,0.309s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,,2019-05-09 11:32:12,2019-05-09 11:32:13,1.125s,PASSED
+,,,,,,,
+Test Cases/Add To Cart/TC-Add item to cart,Chrome 73.0.3683.86,verify that an item is added to cart,,2019-05-09 11:32:13,2019-05-09 11:33:22,1m - 9.408s,PASSED
+openBrowser(masoko),Chrome 73.0.3683.86,,,2019-05-09 11:32:13,2019-05-09 11:32:46,33.262s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,,2019-05-09 11:32:46,2019-05-09 11:32:48,1.249s,PASSED
+"setText(findTestObject(""Home Page/search bar""), findTestData(""Masoko data/TD- Product Search"").getValue(1, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:32:48,2019-05-09 11:32:48,0.440s,PASSED
+"click(findTestObject(""Home Page/button_Search""))",Chrome 73.0.3683.86,,,2019-05-09 11:32:48,2019-05-09 11:32:58,10.045s,PASSED
+"click(findTestObject(""Product search page/img_product_1""))",Chrome 73.0.3683.86,,,2019-05-09 11:32:58,2019-05-09 11:33:19,20.710s,PASSED
+"click(findTestObject(""Product search page/button_Add to Cart""))",Chrome 73.0.3683.86,,,2019-05-09 11:33:19,2019-05-09 11:33:19,0.151s,PASSED
+delay(2),Chrome 73.0.3683.86,,,2019-05-09 11:33:19,2019-05-09 11:33:21,2.060s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,,2019-05-09 11:33:21,2019-05-09 11:33:22,1.212s,PASSED
+,,,,,,,
+Test Cases/Add To Cart/TC- Checkout an item,Chrome 73.0.3683.86,verify an item is checked out from the cart,,2019-05-09 11:33:22,2019-05-09 11:36:12,2m - 49.801s,FAILED
+"callTestCase(findTestCase(""User Authentication/TC-Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,,2019-05-09 11:33:22,2019-05-09 11:34:38,1m - 15.559s,PASSED
+delay(2),Chrome 73.0.3683.86,,,2019-05-09 11:34:38,2019-05-09 11:34:40,2.004s,PASSED
+"setText(findTestObject(""Home Page/search bar""), findTestData(""Masoko data/TD- Product Search"").getValue(1, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:34:40,2019-05-09 11:34:40,0.251s,PASSED
+delay(2),Chrome 73.0.3683.86,,,2019-05-09 11:34:40,2019-05-09 11:34:42,2.005s,PASSED
+"sendKeys(findTestObject(""Home Page/search bar""), Keys.chord(ENTER))",Chrome 73.0.3683.86,,,2019-05-09 11:34:42,2019-05-09 11:35:41,58.452s,PASSED
+"click(findTestObject(""Product search page/img_product_1""))",Chrome 73.0.3683.86,,,2019-05-09 11:35:41,2019-05-09 11:36:12,31.266s,FAILED
+,,,,,,,
+Test Cases/User Authentication/TC-Login,Chrome 73.0.3683.86,Logging in a created user,,2019-05-09 11:36:12,2019-05-09 11:37:42,1m - 30.309s,PASSED
+openBrowser(masoko),Chrome 73.0.3683.86,,,2019-05-09 11:36:12,2019-05-09 11:37:11,58.828s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,,2019-05-09 11:37:11,2019-05-09 11:37:12,1.172s,PASSED
+"click(findTestObject(""Home Page/Sign In ""))",Chrome 73.0.3683.86,,,2019-05-09 11:37:12,2019-05-09 11:37:25,13.045s,PASSED
+"setText(findTestObject(""Customer Login Page/input_username""), findTestData(""Masoko data/TD- Masoko login"").getValue(1, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:37:25,2019-05-09 11:37:25,0.248s,PASSED
+"setText(findTestObject(""Customer Login Page/input_password""), findTestData(""Masoko data/TD- Masoko login"").getValue(2, 1))",Chrome 73.0.3683.86,,,2019-05-09 11:37:25,2019-05-09 11:37:25,0.215s,PASSED
+"click(findTestObject(""Customer Login Page/button_Sign In""))",Chrome 73.0.3683.86,,,2019-05-09 11:37:25,2019-05-09 11:37:42,16.791s,PASSED
